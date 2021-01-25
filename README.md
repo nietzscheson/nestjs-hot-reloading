@@ -3,7 +3,7 @@ nestjs-hot-reloading
 
 This is a Docker (with docker-compose) environment for NestJs development.
 
-Hot realoding configurations in Nestjs have been works bad for me. 
+[Hot realoding configurations](https://docs.nestjs.com/recipes/hot-reload) in Nestjs have been works bad for me. In Investigation I found ts-node-dev. Only install the package npm i --save-dev ts-node-dev and fun it! (The project already is configurated). Please review nest/package.json -> start:dev
 
 # Installation
 
